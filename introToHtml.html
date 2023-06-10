@@ -160,13 +160,13 @@
     </footer>
 
     <script>
-      var bear = document.getElementById("babyBearPic");
-      var numClicked = 0;
+      let bear = document.getElementById("babyBearPic");
+      let numClicked = 0;
       function bearClick() {
         numClicked++;
         console.log("You've clicked the baby bear " + numClicked + " times");
         if (numClicked < 0) {
-          ""
+          "";
         } else {
           alert("RAWR I'm a baby bear!!");
         }
