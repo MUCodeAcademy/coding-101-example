@@ -140,7 +140,7 @@
         src="Bear_Roar.webp"
         title="Angry Bear"
         alt="Scary Bear Picture"
-        id="babyBearPic"
+        id="bearPic"
         style="display: block; margin: auto"
       />
     </section>
@@ -160,17 +160,17 @@
     </footer>
 
     <script>
-      let bear = document.getElementById("babyBearPic");
+      let bear = document.getElementById("bearPic");
       let numClicked = 0;
       function bearClick() {
         numClicked++;
-        console.log("You've clicked the baby bear " + numClicked + " times");
+        console.log("You've clicked the bear " + numClicked + " times");
         if (numClicked < 0) {
           "";
         } else {
-          alert("RAWR I'm a baby bear!!");
+          alert("ROAR!!");
         }
-        numClicked < 0 ? "" : alert("RAWR I'm a baby bear!!");
+        numClicked < 0 ? "" : alert("ROAR!!");
       }
       bear.addEventListener("click", bearClick);
     </script>
