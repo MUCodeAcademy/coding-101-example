@@ -51,40 +51,32 @@
     </nav>
     <hr />
 
-    <section class="container">
+    <div class="container">
       <p>
-        So you can see all sorts of uses for different tags and there are many
-        more you can use as well
-      </p>
-      <p>
-        Some of them are block elements such as the p tag this and the previous
-        sentence are contained in. while others
-        <span class="redText">are inline elements such as this span in red</span>, 
-        <span class="blueText">or this span in blue.</span> Say hello to
-        <span lang="es">Jose Munoz</span>
-      </p>
-    </section>
+        HTML does not
 
-    <hr />
 
-    <article class="container">
-      <header>
-        <h3 class="center">Goals for today</h3>
-      </header>
-      This is an article tag, one of the semantic additions to HTML5 which can
-      be used or not but can add easier code reading. Ideally after today you
-      should be able to build rudimentary webpages with no styling. It's not
-      much now but you're gonna get there I promise!
-    </article>
+
+
+
+
+        care about spacing.
+
+        If you want to add a line break,
+        <br />
+        <br />
+        use the 'br' tag!
+      </p>
+    </div>
     <hr />
-    <section class="container">
+    <div class="container">
       <header>
         <h3 class="center">
           Lists allow for you to be able to show information in a highly legible
           format.
         </h3>
       </header>
-      <article>
+      <div>
         The ordered list allows for you to show items in a numbered pattern:
         <ol>
           <li>Fourth item in a list</li>
@@ -92,8 +84,8 @@
           <li>Second item in a list</li>
           <li>Third item in a list</li>
         </ol>
-      </article>
-      <article>
+      </div>
+      <div>
         The unordered list allows for you to show items with a simple bullet
         point next to them:
         <ul>
@@ -102,10 +94,10 @@
           <li>Third item in a list</li>
           <li>Fourth item in a list</li>
         </ul>
-      </article>
-    </section>
+      </div>
+    </div>
     <hr />
-    <section class="container">
+    <div class="container">
       <header>
         <h3 class="center">
           There are some tags that allow for some styling options without using
@@ -119,20 +111,12 @@
         <strong> strong for increased emphasis </strong> of course, these are
         <sup>only</sup> <sub>a few</sub> of the ones available.
       </p>
-      <p>
-        If you want extra line breaks between lines of text you can add a couple
-        br tags. Like <br />
-        <br />
-        <br />
-
-        this!
-      </p>
-    </section>
+    </div>
     <hr />
-    <section class="container" id="cuteBear">
+    <div class="container" id="cuteBear">
       <header>
         <h3 class="center">
-          But what web page would be complete without images!?!?
+          But what web page would be complete without images?
         </h3>
       </header>
 
@@ -141,9 +125,8 @@
         title="Angry Bear"
         alt="Scary Bear Picture"
         id="bearPic"
-        style="display: block; margin: auto"
       />
-    </section>
+    </div>
 
     <footer class="container">
       <hr />
@@ -159,6 +142,7 @@
       </p>
     </footer>
 
+    <!-- This is for JavaScript, which we'll learn about later in the class -->
     <script>
       let bear = document.getElementById("bearPic");
       let numClicked = 0;
