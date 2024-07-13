@@ -1,4 +1,7 @@
 To download these files, type these steps into the terminal:
+
+Either click the green code button and download a zip file OR:
+
 1. git clone https://github.com/MUCodeAcademy/coding-101-example
 2. It will probably ask you to "trust these authors" for the files,
     press "y" then enter.
